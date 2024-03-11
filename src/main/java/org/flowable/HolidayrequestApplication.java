@@ -23,9 +23,9 @@ public class HolidayrequestApplication {
 		SpringApplication.run(HolidayrequestApplication.class, args);
 
 		ProcessEngineConfiguration cfg = new StandaloneProcessEngineConfiguration()
-				.setJdbcUrl("jdbc:postgresql://localhost:5432/h_request")
-				.setJdbcUsername("postgres")
-				.setJdbcPassword("c1234p")
+				.setJdbcUrl("jdbc:postgresql://(server path")
+				.setJdbcUsername("username")
+				.setJdbcPassword("password")
 				.setJdbcDriver("org.postgresql.Driver")
 				.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_TRUE);
 
