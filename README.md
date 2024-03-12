@@ -31,12 +31,9 @@ java -jar target/flowable-holiday-request.jar
 Open a web browser and go to http://localhost:8080 to interact with the holiday request application.
 
 ## Technologies Used
-Java
-Flowable Process Engine
-Maven
+1. Java
+2. Flowable Process Engine
+3. Maven
 
 ## Contributing
 Contributions are welcome! Please feel free to fork this repository and submit pull requests to suggest improvements or fix any issues.
-
-## License
-This project is licensed under the MIT License.
