@@ -15,17 +15,17 @@ To run the project locally, follow these steps:
 
 1. ### Clone the Repository:
 
-git clone https://github.com/your-username/flowable-holiday-request.git
+git clone https://github.com/ChiruPushadapu/flowable-holiday-request-example.git
 
 2. ### Set Up application.properties:
 
 Create an application.properties file in the src/main/resources directory.
-Add your credentials and configuration details. (Remember not to commit sensitive information to the repository.)
+Add your credentials and configuration details.
 
 3. ### Build and Run:
 
 mvn clean install
-java -jar target/flowable-holiday-request.jar
+java -jar target/flowable-holiday-request-example.jar
 
 4. ### Access the Application:
 Open a web browser and go to http://localhost:8080 to interact with the holiday request application.
