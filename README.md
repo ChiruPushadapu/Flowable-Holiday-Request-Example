@@ -4,28 +4,26 @@ This project serves as a tutorial for creating a Flowable process engine and imp
 ## Overview
 In this tutorial, we build a holiday request process that involves the following steps:
 
-### Employee Holiday Request: Employees submit requests specifying the number of days they wish to take off.
-### Manager Approval: Managers review and either approve or reject the requests.
-### External System Integration: Simulated registration of requests in an external system.
-### Email Notifications: Automated email notifications are sent to employees with the outcome of their requests.
+1. Employee Holiday Request: Employees submit requests specifying the number of days they wish to take off.
+
+2. Manager Approval: Managers review and either approve or reject the requests.
+3. External System Integration: Simulated registration of requests in an external system.
+4. Email Notifications: Automated email notifications are sent to employees with the outcome of their requests.
 
 ## Getting Started
 To run the project locally, follow these steps:
 
 1. ### Clone the Repository:
 
-bash
-Copy code
 git clone https://github.com/your-username/flowable-holiday-request.git
-Set Up application.properties:
 
-2. ### Create an application.properties file in the src/main/resources directory.
+2. ### Set Up application.properties:
+
+Create an application.properties file in the src/main/resources directory.
 Add your credentials and configuration details. (Remember not to commit sensitive information to the repository.)
 
 3. ### Build and Run:
 
-bash
-Copy code
 mvn clean install
 java -jar target/flowable-holiday-request.jar
 
